@@ -36,6 +36,15 @@ form input {
   border: none;
   cursor: pointer;
   font-family: Montserrat;
+  background-color: rgba(0, 136, 169);
+  color: white;
+}
+
+.submit:hover {
+  color: white;
+  border-left: 1px solid #1c1d20;
+  border-right: 1px solid #1c1d20;
+  opacity: 0.9;
 }
 
 .other-way {
@@ -77,6 +86,7 @@ button img {
   width: 350px;
   display: flex;
   justify-content: center;
+  margin-top: 10px;
 }
 .login-container {
   width: 350px;
