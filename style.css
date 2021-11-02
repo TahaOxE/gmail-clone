@@ -21,63 +21,56 @@ body {
   align-items: center;
 }
 form input {
-  margin-top: 10px;
   padding-top: 5px;
   padding-bottom: 5px;
   border-radius: 4px;
   outline: none;
   border: none;
-  margin-left: 40px;
-  margin-right: 40px;
   padding-left: 5px;
   font-family: Montserrat;
 }
 .submit {
-  margin-top: 10px;
   padding: 7px;
   border-radius: 4px;
   outline: none;
   border: none;
   cursor: pointer;
-  margin-left: 40px;
-  margin-right: 40px;
   font-family: Montserrat;
 }
 
 .other-way {
   display: flex;
   width: 100%;
-  margin-top: 10px;
+  margin-top: 20px;
   margin-bottom: 10px;
+  width: 250px;
+  justify-content: space-evenly;
 }
 
 .facebook {
   background-color: #415892;
-  width: 50%;
   height: 50px;
-  margin-left: 10px;
   border: none;
   border-radius: 4px;
   color: white;
   cursor: pointer;
   font-family: Montserrat;
+  width: 100px;
 }
 .Apple {
   background-color: #000000;
   border: none;
   border-radius: 4px;
-  width: 50%;
+  width: 100px;
   height: 50px;
-  margin-left: 10px;
-  margin-right: 10px;
   color: white;
   cursor: pointer;
   font-family: Montserrat;
 }
 
 button img {
-  width: 10px;
-  height: 10px;
+  width: 13px;
+  height: 13px;
 }
 
 .logo-container {
@@ -87,12 +80,43 @@ button img {
 }
 .login-container {
   width: 350px;
-  border: 2px solid red;
   display: flex;
   justify-content: center;
 }
 .login-form {
-  border: 1px solid yellow;
   display: flex;
   justify-content: center;
+  width: 250px;
+}
+.sign-up span {
+  color: white;
+  font-family: Montserrat;
+  font-size: 10px;
+  text-align: center;
+}
+.sign-up {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.infos-container {
+  display: flex;
+  flex-direction: column;
+}
+.facebook:hover {
+  opacity: 0.9;
+  border: 1px solid #1c1d20;
+}
+.Apple:hover {
+  opacity: 0.9;
+  border: 1px solid #1c1d20;
+}
+
+span a {
+  color: #4b65a8;
+  text-decoration: none;
+}
+span a:hover {
+  color: #6174a3;
+  text-decoration: underline;
 }
