@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito+Sans:wght@200&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #24252a;
+}
+.container {
+  border: solid 2px rgba(0, 136, 169);
+  border-radius: 6px;
+  width: 350px;
+  background-color: #1c1d20;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form input {
+  margin-top: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding-left: 5px;
+  font-family: Montserrat;
+}
+.submit {
+  margin-top: 10px;
+  padding: 7px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin-left: 40px;
+  margin-right: 40px;
+  font-family: Montserrat;
+}
+
+.other-way {
+  display: flex;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.facebook {
+  background-color: #415892;
+  width: 50%;
+  height: 50px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  font-family: Montserrat;
+}
+.Apple {
+  background-color: #000000;
+  border: none;
+  border-radius: 4px;
+  width: 50%;
+  height: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+  cursor: pointer;
+  font-family: Montserrat;
+}
+
+button img {
+  width: 10px;
+  height: 10px;
+}
+
+.logo-container {
+  width: 350px;
+  display: flex;
+  justify-content: center;
+}
+.login-container {
+  width: 350px;
+  border: 2px solid red;
+  display: flex;
+  justify-content: center;
+}
+.login-form {
+  border: 1px solid yellow;
+  display: flex;
+  justify-content: center;
+}
